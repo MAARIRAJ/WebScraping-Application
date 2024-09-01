@@ -22,30 +22,23 @@ Virtualenv (recommended)
 Setup
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/maariraj/web-scraping-app.git
 cd web-scraping-app
 Create a virtual environment:
 
-bash
-Copy code
+
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install dependencies:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Apply migrations:
 
-bash
-Copy code
 python manage.py migrate
 Run the server:
 
-bash
-Copy code
+
 python manage.py runserver
 Access the application:
 
